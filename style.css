@@ -1,0 +1,94 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ccc;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+/* FORM */
+.form {
+  width: 30%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+}
+
+/* A4 */
+.a4 {
+  width: 794px;
+  height: 1123px;
+  display: flex;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+/* LEFT */
+.left {
+  width: 30%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.photo {
+  width: 110px;
+  height: 130px;
+  border-radius: 6px;
+  border: 3px solid white;
+}
+
+.block {
+  margin-top: 20px;
+}
+
+/* SKILL BARS */
+.skill {
+  margin-bottom: 10px;
+}
+
+.bar {
+  height: 5px;
+  background: rgba(255,255,255,0.3);
+}
+
+.fill {
+  height: 5px;
+  background: white;
+  width: 80%;
+}
+
+/* RIGHT */
+.right {
+  width: 70%;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* COLORS */
+.blue .left { background:#1e3c72; }
+.purple .left { background:#6a0dad; }
+.green .left { background:#2e7d32; }
+.red .left { background:#c0392b; }
+.dark .left { background:#111; }
+
+.blue h3 { color:#1e3c72; }
+.purple h3 { color:#6a0dad; }
+.green h3 { color:#2e7d32; }
+.red h3 { color:#c0392b; }
+.dark h3 { color:#111; }
